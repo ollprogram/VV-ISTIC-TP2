@@ -6,3 +6,59 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 
 ## Answer
 
+## Example
+
+#### Tight Class Cohesion 
+
+```java
+class Player{
+    private String firstname;
+    private String lastname;
+
+    public Player(String firstname, String lastname){
+        this.firstname = firstname;
+        this.lastname = lastname;
+    } 
+
+    public getFirstName(){
+        return firstname;
+    }
+
+
+    public getLastName(){
+        return lastname;
+    }
+}
+```
+
+
+#### Loose Class Cohesion
+
+```java
+class Player{
+    private String firstname;
+    private String lastname;
+
+    public Player(String firstname, String lastname){
+        this.firstname = firstname;
+        this.lastname = lastname;
+    } 
+
+    public String getFirstName(){
+        return firstname;
+    }
+
+
+    public String getLastName(){
+        return lastname;
+    }
+
+    public String getFullName(){
+        return firstname+" "+fullname;
+    } 
+
+    public int calculateSalary(){
+        ...
+    }
+}
+```
