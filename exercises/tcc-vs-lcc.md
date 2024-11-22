@@ -56,9 +56,7 @@ class Player{
     public String getFullName(){
         return firstname+" "+fullname;
     } 
-
-    public int calculateSalary(){
-        ...
-    }
 }
 ```
+
+//TODO
