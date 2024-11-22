@@ -6,57 +6,30 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 
 ## Answer
 
-## Example
+```Java
+    public class compteur {
+        
+        private int x;
 
-#### Tight Class Cohesion 
+        public compteur(){
+            this.x = 0;
+        }
 
-```java
-class Player{
-    private String firstname;
-    private String lastname;
+        public int getx(){
+            return this.x;
+        }
 
-    public Player(String firstname, String lastname){
-        this.firstname = firstname;
-        this.lastname = lastname;
-    } 
+        public void incr(){
+            this.x = getx() + 1;
+        }
 
-    public getFirstName(){
-        return firstname;
+        public void decr(){
+            this.x = getx() - 1;
+        }
+
     }
-
-
-    public getLastName(){
-        return lastname;
-    }
-}
 ```
 
+- Dans notre exemple ci dessus, nous pouvons remarquer que chaques méthodes utilise l'attribut x, ce qui donne un TCC de 3/3 et un LCC 3/3.
 
-#### Loose Class Cohesion
-
-```java
-class Player{
-    private String firstname;
-    private String lastname;
-
-    public Player(String firstname, String lastname){
-        this.firstname = firstname;
-        this.lastname = lastname;
-    } 
-
-    public String getFirstName(){
-        return firstname;
-    }
-
-
-    public String getLastName(){
-        return lastname;
-    }
-
-    public String getFullName(){
-        return firstname+" "+fullname;
-    } 
-}
-```
-
-//TODO
+- Vu que LCC prend également en compte les relations transitives entre les méthodes, alors TCC ne peut en aucun cas surpasser la valeur de LCC
