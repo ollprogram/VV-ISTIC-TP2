@@ -1,0 +1,4 @@
+{Package = empty, Class = Vehicle, Field = color, hasGetter = false}
+
+{Package = empty, Class = Vehicle, Field = name, hasGetter = true}
+
