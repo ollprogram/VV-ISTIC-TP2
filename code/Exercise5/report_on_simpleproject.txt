@@ -1,0 +1,11 @@
+REPORT
+------- empty.Vehicle -------
+getName
+██ -> (2)
+
+getName2
+██ -> (2)
+
+setName
+████ -> (4)
+

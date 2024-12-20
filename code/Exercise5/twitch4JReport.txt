@@ -1,0 +1,3054 @@
+REPORT
+------- com.github.twitch4j.common.enums.AnnouncementColor -------
+toString
+█ -> (1)
+
+parseColor
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.SubscriptionHandler -------
+topicName
+█ -> (1)
+
+apply
+█ -> (1)
+
+------- com.github.twitch4j.TwitchClientPool -------
+getExtensions
+██ -> (2)
+
+getHelix
+██ -> (2)
+
+getKraken
+██ -> (2)
+
+getMessagingInterface
+██ -> (2)
+
+getChat
+██ -> (2)
+
+getEventSocket
+██ -> (2)
+
+getPubSub
+██ -> (2)
+
+getGraphQL
+██ -> (2)
+
+close
+███ -> (3)
+
+------- com.github.twitch4j.pubsub.domain.ChannelBitsData -------
+getTimeAsInstant
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.UserModerationActionData -------
+isBan
+█ -> (1)
+
+isUnban
+█ -> (1)
+
+isWarning
+█ -> (1)
+
+isWarningAcknowledgement
+█ -> (1)
+
+------- com.github.twitch4j.modules.ModuleLoader -------
+loadClassModules
+███ -> (3)
+
+addModule
+█ -> (1)
+
+addModule
+██████ -> (6)
+
+enableModule
+███ -> (3)
+
+enableModule
+███ -> (3)
+
+disableModule
+███ -> (3)
+
+removeModule
+██ -> (2)
+
+removeModule
+█ -> (1)
+
+reloadMdoules
+█ -> (1)
+
+loadModulesFromDirectory
+██ -> (2)
+
+loadExternalModules
+█ -> (1)
+
+loadExternalModules
+██ -> (2)
+
+addModuleClass
+██ -> (2)
+
+loadClass
+██ -> (2)
+
+listClasses
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.CheerbombHandler -------
+topicName
+█ -> (1)
+
+apply
+██ -> (2)
+
+------- com.github.twitch4j.common.util.CollectionUtils -------
+chunked
+███ -> (3)
+
+------- com.github.twitch4j.common.util.AlternativeInstantDeserializer -------
+deserialize
+██████ -> (6)
+
+------- com.github.twitch4j.pubsub.events.ChannelUnbanRequestCreateEvent -------
+getUnbanRequest
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.HypeTrainEndTest -------
+deserialize
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandFetchSquadStream -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.ChannelPointsHandler -------
+topicName
+█ -> (1)
+
+topicNames
+█ -> (1)
+
+apply
+█ -> (1)
+
+------- com.github.twitch4j.chat.events.channel.DirectCheerEvent -------
+getAmount
+█ -> (1)
+
+getCurrency
+█ -> (1)
+
+getMonetaryValue
+█ -> (1)
+
+getSystemMessage
+█ -> (1)
+
+getBits
+█ -> (1)
+
+------- com.github.twitch4j.chat.ITwitchChat -------
+getEventManager
+█ -> (1)
+
+joinChannel
+█ -> (1)
+
+leaveChannel
+█ -> (1)
+
+sendMessage
+█ -> (1)
+
+sendMessage
+█████ -> (5)
+
+sendMessage
+█ -> (1)
+
+getChannels
+█ -> (1)
+
+close
+█ -> (1)
+
+getLatency
+█ -> (1)
+
+getChannelIdToChannelName
+█ -> (1)
+
+getChannelNameToChannelId
+█ -> (1)
+
+isChannelJoined
+█ -> (1)
+
+sendActionMessage
+█ -> (1)
+
+setSlowMode
+█████ -> (5)
+
+setFollowersOnly
+███ -> (3)
+
+setSubscribersOnly
+█ -> (1)
+
+setUniqueChat
+█ -> (1)
+
+setEmoteOnly
+█ -> (1)
+
+clearChat
+█ -> (1)
+
+delete
+█ -> (1)
+
+timeout
+██ -> (2)
+
+ban
+██ -> (2)
+
+unban
+█ -> (1)
+
+sendAnnouncement
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.ChatroomHandler -------
+topicName
+█ -> (1)
+
+apply
+███ -> (3)
+
+------- com.github.twitch4j.pubsub.domain.AutomaticReward -------
+isBitsRedemption
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.PubSubRequest -------
+getTopics
+█ -> (1)
+
+------- com.github.twitch4j.chat.events.channel.MirrorableEvent -------
+getMessageEvent
+█ -> (1)
+
+isMirrored
+█ -> (1)
+
+getSourceChannelId
+█ -> (1)
+
+getSourceMessageId
+█ -> (1)
+
+getSourceBadges
+█ -> (1)
+
+getSourceBadgeInfo
+█ -> (1)
+
+getSourceNoticeType
+█ -> (1)
+
+------- com.github.twitch4j.ListenerRunnable -------
+run
+████ -> (4)
+
+run
+███ -> (3)
+
+------- com.github.twitch4j.pubsub.handlers.BoostHandler -------
+topicName
+█ -> (1)
+
+apply
+██ -> (2)
+
+------- com.github.twitch4j.internal.TwitchEnumVerificationTest -------
+validateTwitchEnumHasDefaultValue
+█ -> (1)
+
+findTwitchEnumGenericTypes
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandFetchChatHistory -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.CharityDonationData -------
+getTotal
+█ -> (1)
+
+getTarget
+█ -> (1)
+
+------- com.github.twitch4j.chat.events.channel.PayForwardEvent -------
+wasPriorGifterAnonymous
+█ -> (1)
+
+isCommunityPayForward
+█ -> (1)
+
+------- com.github.twitch4j.chat.util.TestUtils -------
+getCredential
+█ -> (1)
+
+sleepFor
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandFetchChatters -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.HighlightHandler -------
+topicName
+█ -> (1)
+
+apply
+██ -> (2)
+
+------- com.github.twitch4j.common.util.TypeConvert -------
+objectToJson
+█ -> (1)
+
+jsonToObject
+█ -> (1)
+
+convertValue
+█ -> (1)
+
+convertValue
+█ -> (1)
+
+------- com.github.twitch4j.chat.events.channel.SubscriptionEvent -------
+reply
+█ -> (1)
+
+getSubscriptionPlanName
+█ -> (1)
+
+------- com.github.twitch4j.graphql.TwitchGraphQLTest -------
+buildTwitch4J
+█ -> (1)
+
+followUserWithoutNotification
+█ -> (1)
+
+unfollowUser
+█ -> (1)
+
+------- com.github.twitch4j.common.util.EscapeUtils -------
+escapeTagValue
+████████ -> (8)
+
+unescapeTagValue
+████████ -> (8)
+
+------- com.github.twitch4j.pubsub.handlers.LeaderboardHandler -------
+topicName
+█ -> (1)
+
+apply
+█ -> (1)
+
+------- com.github.twitch4j.internal.ChatCommandRegistry -------
+getLogger
+█ -> (1)
+
+getId
+███████ -> (7)
+
+doBan
+███ -> (3)
+
+parseDuration
+█████ -> (5)
+
+------- com.github.twitch4j.graphql.command.CommandFetchMods -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.common.util.ChatReply -------
+parse
+███ -> (3)
+
+------- com.github.twitch4j.graphql.command.CommandComputeId -------
+xor
+███ -> (3)
+
+------- com.github.twitch4j.common.feign.ObjectToJsonExpander -------
+expand
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.HypeProgressionTest -------
+deserialize
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.ModeratorHandler -------
+topicName
+█ -> (1)
+
+apply
+█ -> (1)
+
+------- com.github.twitch4j.common.feign.JsonStringExpander -------
+expand
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandDenyUnbanRequest -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandFetchUserSubscriptions -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.ITwitchClient -------
+getEventManager
+█ -> (1)
+
+getExtensions
+█ -> (1)
+
+getHelix
+█ -> (1)
+
+getKraken
+█ -> (1)
+
+getMessagingInterface
+█ -> (1)
+
+getChat
+█ -> (1)
+
+getEventSocket
+█ -> (1)
+
+getPubSub
+█ -> (1)
+
+getGraphQL
+█ -> (1)
+
+getModuleLoader
+█ -> (1)
+
+getClientHelper
+█ -> (1)
+
+close
+███████ -> (7)
+
+------- com.github.twitch4j.pubsub.domain.PubSubRequestTest -------
+equals
+█ -> (1)
+
+serialize
+█ -> (1)
+
+serializeAuthorized
+█ -> (1)
+
+serializePing
+█ -> (1)
+
+deserialize
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandBulkDenyUnbanRequest -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandFetchPoll -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.auth.TwitchIdentityProviderTest -------
+twitchIdentityProvider
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.TwitchPubSubBuilder -------
+builder
+█ -> (1)
+
+build
+███ -> (3)
+
+withBotOwnerId
+█ -> (1)
+
+withBotOwnerIds
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.AutomodCaughtMessageDataTest -------
+deserializeCaughtAutomodMessage
+█ -> (1)
+
+deserializeCaughtBlockedTerm
+█ -> (1)
+
+deserializeExpiredPrivateBlockedTerm
+█ -> (1)
+
+------- com.github.twitch4j.events.ChannelChangeTitleEvent -------
+getTitle
+█ -> (1)
+
+------- com.github.twitch4j.common.util.BucketUtils -------
+simple
+█ -> (1)
+
+simple
+█ -> (1)
+
+createBucket
+█ -> (1)
+
+createBucket
+██ -> (2)
+
+createBucket
+██ -> (2)
+
+scheduleAgainstBucket
+███ -> (3)
+
+scheduleAgainstBucket
+███ -> (3)
+
+------- com.github.twitch4j.chat.ChatJoinRetryTest -------
+getChatInstance
+█ -> (1)
+
+testIRCMessageEvent
+█ -> (1)
+
+testChannelJoinSuccess
+█ -> (1)
+
+testChannelJoinFailedByExpire
+█ -> (1)
+
+testChannelJoinFailedBeforeSuccess
+█ -> (1)
+
+testChannelJoinFailedByBannedUser
+█ -> (1)
+
+testChannelJoinFailedChannelSuspended
+█ -> (1)
+
+testChannelJoinFailedTOS
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandFetchUser -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.PinHandler -------
+topicName
+█ -> (1)
+
+apply
+█ -> (1)
+
+------- com.github.twitch4j.chat.events.channel.GlobalUserStateEvent -------
+getDisplayName
+█ -> (1)
+
+getUserId
+█ -> (1)
+
+getColor
+█ -> (1)
+
+getEmoteSets
+█ -> (1)
+
+isStaff
+█ -> (1)
+
+isPrimeOrTurbo
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandFetchCommunityPointsSettings -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandFetchModComments -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandBanUser -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.BanSharingSettingsTest -------
+deserialize
+█ -> (1)
+
+------- com.github.twitch4j.chat.TwitchChatBuilder -------
+builder
+█ -> (1)
+
+build
+█████████████████ -> (17)
+
+withCommandTrigger
+█ -> (1)
+
+withCommandTriggers
+█ -> (1)
+
+withBotOwnerId
+█ -> (1)
+
+withBotOwnerIds
+█ -> (1)
+
+------- com.github.twitch4j.chat.util.MessageParser -------
+parse
+█ -> (1)
+
+parse
+██████████████████ -> (18)
+
+parseTags
+███████ -> (7)
+
+parseTag
+██ -> (2)
+
+consumeLines
+███ -> (3)
+
+------- com.github.twitch4j.pubsub.events.VideoPlaybackEvent -------
+getChannel
+█ -> (1)
+
+------- com.github.twitch4j.graphql.TwitchGraphQL -------
+getApolloClient
+███ -> (3)
+
+fetchBanStatus
+█ -> (1)
+
+addChannelBlockedTerm
+█ -> (1)
+
+deleteChannelBlockedTerm
+█ -> (1)
+
+addChannelPermittedTerm
+█ -> (1)
+
+deleteChannelPermittedTerm
+█ -> (1)
+
+fetchChatHistory
+█ -> (1)
+
+fetchChatters
+█ -> (1)
+
+createClip
+█ -> (1)
+
+deleteClips
+█ -> (1)
+
+updateClip
+█ -> (1)
+
+fetchChannelPointRewards
+█ -> (1)
+
+createCommunityPointsGoal
+█ -> (1)
+
+deleteCommunityPointsGoal
+█ -> (1)
+
+updateCommunityPointsGoal
+█ -> (1)
+
+updateRedemptionStatus
+█ -> (1)
+
+updateRedemptionStatuses
+█ -> (1)
+
+acceptFriendRequest
+█ -> (1)
+
+rejectFriendRequest
+█ -> (1)
+
+fetchLastBroadcast
+█ -> (1)
+
+createModComment
+█ -> (1)
+
+fetchModComments
+█ -> (1)
+
+fetchMods
+█ -> (1)
+
+archivePoll
+█ -> (1)
+
+createPoll
+█ -> (1)
+
+fetchPoll
+█ -> (1)
+
+terminatePoll
+█ -> (1)
+
+cancelPrediction
+█ -> (1)
+
+createPrediction
+█ -> (1)
+
+fetchActivePredictions
+█ -> (1)
+
+fetchLockedPredictions
+█ -> (1)
+
+fetchPrediction
+█ -> (1)
+
+lockPrediction
+█ -> (1)
+
+resolvePrediction
+█ -> (1)
+
+fetchSquadStream
+█ -> (1)
+
+approveUnbanRequest
+█ -> (1)
+
+bulkApproveUnbanRequest
+█ -> (1)
+
+bulkDenyUnbanRequest
+█ -> (1)
+
+denyUnbanRequest
+█ -> (1)
+
+fetchUnbanRequests
+█ -> (1)
+
+banUser
+█ -> (1)
+
+fetchUser
+█ -> (1)
+
+fetchUserEmoteSets
+█ -> (1)
+
+fetchUserSubscriptions
+█ -> (1)
+
+fetchVideoComments
+█ -> (1)
+
+fetchVips
+█ -> (1)
+
+followUser
+█ -> (1)
+
+unfollowUser
+█ -> (1)
+
+------- com.github.twitch4j.common.util.TwitchUtilsTest -------
+badgesParseTest
+█ -> (1)
+
+mapOf
+█ -> (1)
+
+------- com.github.twitch4j.chat.events.IRCEventHandler -------
+handle
+███████████████████████████████████████████████ -> (47)
+
+onAnnouncement
+██ -> (2)
+
+onChannelMessage
+████ -> (4)
+
+onWhisper
+██ -> (2)
+
+onBitsBadgeTier
+██ -> (2)
+
+onChannelCheer
+███ -> (3)
+
+onDirectCheer
+██ -> (2)
+
+onChannelSubscription
+█████████████████ -> (17)
+
+onGiftReceived
+██ -> (2)
+
+onPayForward
+██ -> (2)
+
+onCharityDonation
+██ -> (2)
+
+onRaid
+██ -> (2)
+
+onUnraid
+██ -> (2)
+
+onRewardGift
+██ -> (2)
+
+onRitual
+██ -> (2)
+
+onClearChat
+████ -> (4)
+
+onClearMsg
+██ -> (2)
+
+onNames
+██ -> (2)
+
+onChannnelClientJoinEvent
+███ -> (3)
+
+onChannnelClientLeaveEvent
+███ -> (3)
+
+onChannelModChange
+███ -> (3)
+
+onNoticeEvent
+██ -> (2)
+
+onHostOnEvent
+███ -> (3)
+
+onHostOffEvent
+███ -> (3)
+
+onInboundHostEvent
+██ -> (2)
+
+onListModsEvent
+██ -> (2)
+
+onListVipsEvent
+██ -> (2)
+
+onChannelState
+██ -> (2)
+
+onMessageDeleteResponse
+█████ -> (5)
+
+onUserState
+██ -> (2)
+
+onGlobalUserState
+██ -> (2)
+
+onViewerMilestone
+██ -> (2)
+
+getNoticeType
+██ -> (2)
+
+extractItemsFromDelimitedList
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandCreateCommunityPointsGoal -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandDeleteClips -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandFetchUnbanRequests -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.events.LeaderboardEvent -------
+getChannelId
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.SharedChatHandler -------
+topicName
+█ -> (1)
+
+apply
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.events.UserUnbanRequestUpdateEvent -------
+getUnbanRequest
+█ -> (1)
+
+------- com.github.twitch4j.common.enums.SubscriptionType -------
+fromString
+████ -> (4)
+
+toString
+█ -> (1)
+
+------- com.github.twitch4j.common.config.ProxyConfig -------
+apply
+█ -> (1)
+
+clearPassword
+█ -> (1)
+
+buildAuthenticator
+███ -> (3)
+
+buildAddress
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.SupportActivityFeedData -------
+isBitsCheer
+█ -> (1)
+
+isSub
+█ -> (1)
+
+isGiftSub
+█ -> (1)
+
+getSubTier
+████ -> (4)
+
+------- com.github.twitch4j.chat.util.ChatCrowdChant -------
+participate
+█ -> (1)
+
+parse
+██████ -> (6)
+
+------- com.github.twitch4j.IClientHelper -------
+getTwitchHelix
+█ -> (1)
+
+enableStreamEventListener
+█ -> (1)
+
+disableStreamEventListenerForId
+█ -> (1)
+
+enableFollowEventListener
+█ -> (1)
+
+disableFollowEventListenerForId
+█ -> (1)
+
+enableClipEventListener
+█ -> (1)
+
+disableClipEventListenerForId
+█ -> (1)
+
+getCachedInformation
+█ -> (1)
+
+setThreadDelay
+█ -> (1)
+
+enableStreamEventListener
+████ -> (4)
+
+enableStreamEventListener
+█ -> (1)
+
+disableStreamEventListener
+██ -> (2)
+
+disableStreamEventListener
+█ -> (1)
+
+enableFollowEventListener
+████ -> (4)
+
+enableFollowEventListener
+█ -> (1)
+
+disableFollowEventListener
+██ -> (2)
+
+disableFollowEventListener
+█ -> (1)
+
+enableClipEventListener
+█ -> (1)
+
+enableClipEventListener
+████ -> (4)
+
+enableClipEventListener
+█ -> (1)
+
+disableClipEventListener
+██ -> (2)
+
+disableClipEventListener
+█ -> (1)
+
+setThreadRate
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.RaidHandler -------
+topicName
+█ -> (1)
+
+apply
+█ -> (1)
+
+------- com.github.twitch4j.TwitchClientTest -------
+buildTwitch4J
+█ -> (1)
+
+buildCommandPrefix
+█ -> (1)
+
+testScheduledThreadPoolExecutorShutdown
+█ -> (1)
+
+testScheduledThreadPoolExecutorExternalKeepAlive
+█ -> (1)
+
+localTest
+█ -> (1)
+
+------- com.github.twitch4j.common.pool.SubscriptionConnectionPool -------
+subscribe
+█████████ -> (9)
+
+unsubscribe
+███ -> (3)
+
+numConnections
+█ -> (1)
+
+getConnections
+█ -> (1)
+
+close
+██ -> (2)
+
+numSubscriptions
+██ -> (2)
+
+handleSubscription
+█ -> (1)
+
+handleDuplicateSubscription
+█ -> (1)
+
+handleUnsubscription
+█ -> (1)
+
+getRequestFromSubscription
+█ -> (1)
+
+getSubscriptionSize
+█ -> (1)
+
+getOrCreateConnectionWithHeadroomAndIncrement
+████████ -> (8)
+
+decrementSubscriptions
+███ -> (3)
+
+------- com.github.twitch4j.graphql.command.CommandFetchVideoComments -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.ChatHighlight -------
+isRaider
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandCancelPrediction -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.events.PubSubAuthRevokeEvent -------
+getTopicNames
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.CreateShoutoutDataTest -------
+deserializeSimple
+█ -> (1)
+
+------- com.github.twitch4j.common.pool.TwitchModuleConnectionPool -------
+getExecutor
+███ -> (3)
+
+getConnectionEventManager
+███ -> (3)
+
+getDefaultConnectionEventManager
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.events.CreatorGoalEvent -------
+isGoalCreate
+█ -> (1)
+
+isGoalUpdate
+█ -> (1)
+
+isGoalAchieve
+█ -> (1)
+
+isGoalFinish
+█ -> (1)
+
+------- com.github.twitch4j.common.test.TestEventManager -------
+publish
+█ -> (1)
+
+getPublishedEvents
+█ -> (1)
+
+------- com.github.twitch4j.events.ChannelClipCreatedEvent -------
+getCreatingUser
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.HypeTrainConductorTest -------
+deserialize
+█ -> (1)
+
+------- com.github.twitch4j.auth.domain.TwitchScopes -------
+toString
+█ -> (1)
+
+------- com.github.twitch4j.chat.util.MessageParserTest -------
+consumeLines
+█ -> (1)
+
+split
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.GoalsHandler -------
+topicName
+█ -> (1)
+
+apply
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.Fragment -------
+isFragmentFlagged
+█████ -> (5)
+
+isFragmentLink
+█ -> (1)
+
+isFragmentMention
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.ITwitchPubSub -------
+getEventManager
+█ -> (1)
+
+listenOnTopic
+█ -> (1)
+
+unsubscribeFromTopic
+█ -> (1)
+
+close
+█ -> (1)
+
+listenOnTopic
+█ -> (1)
+
+listenOnTopic
+█ -> (1)
+
+listenOnTopic
+█ -> (1)
+
+listenForAutomodQueueEvents
+█ -> (1)
+
+listenForBitsBadgeEvents
+█ -> (1)
+
+listenForCheerEvents
+█ -> (1)
+
+listenForSubscriptionEvents
+█ -> (1)
+
+listenForCommerceEvents
+█ -> (1)
+
+listenForWhisperEvents
+█ -> (1)
+
+listenForLowTrustUsersEvents
+█ -> (1)
+
+listenForModerationEvents
+█ -> (1)
+
+listenForModerationEvents
+█ -> (1)
+
+listenForUserModerationNotificationEvents
+█ -> (1)
+
+listenForChannelPointsRedemptionEvents
+█ -> (1)
+
+listenForAdsEvents
+█ -> (1)
+
+listenForAdsManagerEvents
+█ -> (1)
+
+listenForAdPropertyRefreshEvents
+█ -> (1)
+
+listenForAutomodLevelsModificationEvents
+█ -> (1)
+
+listenForBountyBoardEvents
+█ -> (1)
+
+listenForDashboardActivityFeedEvents
+█ -> (1)
+
+listenForCommunityBoostEvents
+█ -> (1)
+
+listenForCreatorGoalsEvents
+█ -> (1)
+
+listenForCrowdChantEvents
+█ -> (1)
+
+listenForUserChannelPointsEvents
+█ -> (1)
+
+listenForChannelDropEvents
+█ -> (1)
+
+listenForChannelBitsLeaderboardEvents
+█ -> (1)
+
+listenForChannelBitsLeaderboardMonthlyEvents
+█ -> (1)
+
+listenForChannelBitsLeaderboardAllTimeEvents
+█ -> (1)
+
+listenForChannelBitsLeaderboardEvents
+█ -> (1)
+
+listenForChannelPrimeGiftStatusEvents
+█ -> (1)
+
+listenForChannelSubLeaderboardEvents
+█ -> (1)
+
+listenForChannelSubLeaderboardMonthlyEvents
+█ -> (1)
+
+listenForChannelSubLeaderboardAllTimeEvents
+█ -> (1)
+
+listenForChannelSubLeaderboardEvents
+█ -> (1)
+
+listenForLeaderboardEvents
+█ -> (1)
+
+listenForLeaderboardMonthlyEvents
+█ -> (1)
+
+listenForLeaderboardAllTimeEvents
+█ -> (1)
+
+listenForLeaderboardEvents
+█ -> (1)
+
+listenForPinnedChatEvents
+█ -> (1)
+
+listenForChannelPredictionsEvents
+█ -> (1)
+
+listenForUserPredictionsEvents
+█ -> (1)
+
+listenForSharedChatEvents
+█ -> (1)
+
+listenForChannelSubGiftsEvents
+█ -> (1)
+
+listenForChannelSquadEvents
+█ -> (1)
+
+listenForRaidEvents
+█ -> (1)
+
+listenForChannelUnbanRequestEvents
+█ -> (1)
+
+listenForUserUnbanRequestEvents
+█ -> (1)
+
+listenForChannelExtensionEvents
+█ -> (1)
+
+listenForCharityCampaignEvents
+█ -> (1)
+
+listenForExtensionControlEvents
+█ -> (1)
+
+listenForHypeTrainEvents
+█ -> (1)
+
+listenForHypeTrainRewardEvents
+█ -> (1)
+
+listenForBroadcastSettingUpdateEvents
+█ -> (1)
+
+listenForCelebrationEvents
+█ -> (1)
+
+listenForPublicBitEvents
+█ -> (1)
+
+listenForChatHighlightEvents
+█ -> (1)
+
+listenForPublicCheerEvents
+█ -> (1)
+
+listenForStreamChangeEvents
+█ -> (1)
+
+listenForStreamChatRoomEvents
+█ -> (1)
+
+listenForChannelChatroomEvents
+█ -> (1)
+
+listenForUserChatroomEvents
+█ -> (1)
+
+listenForUserBitsUpdateEvents
+█ -> (1)
+
+listenForUserCampaignEvents
+█ -> (1)
+
+listenForUserDropEvents
+█ -> (1)
+
+listenForUserPropertiesUpdateEvents
+█ -> (1)
+
+listenForUserSubscribeEvents
+█ -> (1)
+
+listenForUserImageUpdateEvents
+█ -> (1)
+
+listenForFollowingEvents
+█ -> (1)
+
+listenForFollows
+█ -> (1)
+
+listenForFriendshipEvents
+█ -> (1)
+
+listenForOnsiteNotificationEvents
+█ -> (1)
+
+listenForPollEvents
+█ -> (1)
+
+listenForPresenceEvents
+█ -> (1)
+
+listenForRadioEvents
+█ -> (1)
+
+listenForShieldModeEvents
+█ -> (1)
+
+listenForShoutoutEvents
+█ -> (1)
+
+listenForVideoPlaybackEvents
+█ -> (1)
+
+listenForVideoPlaybackByNameEvents
+█ -> (1)
+
+listenForWatchPartyEvents
+█ -> (1)
+
+getLatency
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.CaughtMessageReason -------
+matchesAutomodCategory
+█ -> (1)
+
+matchesBlockedTerm
+█ -> (1)
+
+------- com.github.twitch4j.TwitchClientBuilder -------
+withBotOwnerId
+█ -> (1)
+
+withCommandTrigger
+█ -> (1)
+
+withHelperThreadRate
+█ -> (1)
+
+builder
+█ -> (1)
+
+build
+█████████████████ -> (17)
+
+------- com.github.twitch4j.pubsub.handlers.AutoModLevelHandler -------
+topicName
+█ -> (1)
+
+apply
+██ -> (2)
+
+------- com.github.twitch4j.graphql.command.CommandUpdateCommunityPointsGoal -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.NotificationHandler -------
+topicName
+█ -> (1)
+
+apply
+████ -> (4)
+
+------- com.github.twitch4j.pubsub.handlers.ShieldHandler -------
+topicName
+█ -> (1)
+
+apply
+███ -> (3)
+
+------- com.github.twitch4j.pubsub.domain.SubscriptionData -------
+getRecipientId
+█ -> (1)
+
+getRecipientUserName
+█ -> (1)
+
+getRecipientDisplayName
+█ -> (1)
+
+getBenefitEndMonth
+█ -> (1)
+
+getTime
+█ -> (1)
+
+------- com.github.twitch4j.common.util.TwitchEnumDeserializer -------
+deserialize
+█ -> (1)
+
+createContextual
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.TwitchPubSubTest -------
+init
+█ -> (1)
+
+testTopicListen
+█ -> (1)
+
+noncePattern
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.ModerationAction -------
+fromString
+█ -> (1)
+
+------- com.github.twitch4j.auth.TwitchAuth -------
+registerIdentityProvider
+██ -> (2)
+
+------- com.github.twitch4j.graphql.command.CommandArchivePoll -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.common.util.EscapeUtilsTest -------
+unescapeTagValue
+█ -> (1)
+
+------- com.github.twitch4j.internal.ChatCommandHelixForwarder -------
+test
+█████ -> (5)
+
+getCommandBucket
+█ -> (1)
+
+------- com.github.twitch4j.chat.TwitchChat -------
+onConnected
+█████████ -> (9)
+
+onTextMessage
+█ -> (1)
+
+onDisconnecting
+█ -> (1)
+
+connect
+███ -> (3)
+
+disconnect
+█ -> (1)
+
+reconnect
+█ -> (1)
+
+sendCommand
+█ -> (1)
+
+sendRaw
+██ -> (2)
+
+queueCommand
+████ -> (4)
+
+sendTextToWebSocket
+████ -> (4)
+
+joinChannel
+█ -> (1)
+
+issueJoin
+█ -> (1)
+
+issueJoin
+█ -> (1)
+
+leaveChannel
+█ -> (1)
+
+issuePart
+█ -> (1)
+
+removeCurrentChannel
+█ -> (1)
+
+sendMessage
+████ -> (4)
+
+sendPrivateMessage
+██ -> (2)
+
+onChannelMessage
+█████ -> (5)
+
+close
+█ -> (1)
+
+isChannelJoined
+█ -> (1)
+
+getCurrentChannels
+█ -> (1)
+
+getChannels
+█ -> (1)
+
+getChannelIdToChannelName
+█ -> (1)
+
+getChannelNameToChannelId
+█ -> (1)
+
+getLatency
+█ -> (1)
+
+getState
+█ -> (1)
+
+getConnectionState
+█ -> (1)
+
+getChannelMessageBucket
+█ -> (1)
+
+shouldPublishEvent
+█████ -> (5)
+
+------- com.github.twitch4j.common.util.EventManagerUtils -------
+validateOrInitializeEventManager
+█ -> (1)
+
+initializeEventManager
+███ -> (3)
+
+validateEventManager
+███ -> (3)
+
+------- com.github.twitch4j.graphql.command.CommandLockPrediction -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.chat.TwitchChatConnectionPool -------
+sendMessage
+█ -> (1)
+
+sendMessage
+█ -> (1)
+
+sendMessage
+█████ -> (5)
+
+sendMessage
+██████ -> (6)
+
+sendPrivateMessage
+███ -> (3)
+
+subscribe
+█ -> (1)
+
+joinChannel
+█ -> (1)
+
+unsubscribe
+████ -> (4)
+
+leaveChannel
+█ -> (1)
+
+isChannelJoined
+█ -> (1)
+
+getChannels
+█ -> (1)
+
+handleSubscription
+███ -> (3)
+
+handleDuplicateSubscription
+█ -> (1)
+
+handleUnsubscription
+█ -> (1)
+
+getRequestFromSubscription
+█ -> (1)
+
+getSubscriptionSize
+█ -> (1)
+
+createConnection
+█████ -> (5)
+
+disposeConnection
+█ -> (1)
+
+getLatency
+███ -> (3)
+
+getChannelIdToChannelName
+█ -> (1)
+
+getChannelNameToChannelId
+█ -> (1)
+
+collectMapsFromConnections
+█ -> (1)
+
+------- com.github.twitch4j.chat.events.channel.CharityDonationEvent -------
+getUser
+█ -> (1)
+
+------- com.github.twitch4j.chat.flag.FlagType -------
+parse
+██████ -> (6)
+
+------- com.github.twitch4j.pubsub.domain.WhisperThreadTest -------
+deserialize
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.PredictionHandler -------
+topicName
+█ -> (1)
+
+apply
+████ -> (4)
+
+------- com.github.twitch4j.chat.enums.NoticeTag -------
+toString
+█ -> (1)
+
+parse
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandUpdateCustomRedemptionStatuses -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.chat.events.AbstractChannelEvent -------
+timeout
+██ -> (2)
+
+ban
+██ -> (2)
+
+unban
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.CommunityPointsGoal -------
+getParsedType
+█ -> (1)
+
+getParsedStatus
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.BitsHandler -------
+topicName
+█ -> (1)
+
+apply
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandDeleteCommunityPointsGoal -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.CreateShoutoutData -------
+unpackCallToAction
+███ -> (3)
+
+------- com.github.twitch4j.common.enums.SubscriptionPlan -------
+fromString
+████ -> (4)
+
+toString
+█ -> (1)
+
+------- com.github.twitch4j.internal.ChatCommandRegistryTest -------
+testDurationParsing
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandUnfollowUser -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.events.PubSubListenResponseEvent -------
+getListenRequest
+█ -> (1)
+
+hasError
+█ -> (1)
+
+isBadAuthentication
+█ -> (1)
+
+isBadMessage
+█ -> (1)
+
+isBadTopic
+█ -> (1)
+
+isServerError
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.UserPointsHandler -------
+topicName
+█ -> (1)
+
+apply
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.UserUnbanRequestHandler -------
+topicName
+█ -> (1)
+
+apply
+██ -> (2)
+
+------- com.github.twitch4j.pubsub.domain.ScheduleUpdateTest -------
+deserializeSnooze
+█ -> (1)
+
+------- com.github.twitch4j.common.feign.interceptor.TwitchClientIdInterceptor -------
+apply
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.HypeTrainProgress -------
+isAllTimeHigh
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandFetchUserEmoteSets -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.common.util.CryptoUtils -------
+generateNonce
+██ -> (2)
+
+hexToBytes
+██ -> (2)
+
+------- com.github.twitch4j.graphql.command.CommandUpdateCustomRedemptionStatus -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.common.util.SneakySupplier -------
+get
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.events.ChannelUnbanRequestUpdateEvent -------
+getUnbanRequest
+█ -> (1)
+
+------- com.github.twitch4j.chat.events.CommandEvent -------
+respondToUser
+████ -> (4)
+
+------- com.github.twitch4j.chat.events.channel.ViewerMilestoneEvent -------
+getUserMessage
+█ -> (1)
+
+isWatchStreak
+█ -> (1)
+
+parseValue
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.UserModeratedHandler -------
+topicName
+█ -> (1)
+
+apply
+██ -> (2)
+
+------- com.github.twitch4j.pubsub.handlers.PollsHandler -------
+topicName
+█ -> (1)
+
+apply
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.RevocationTest -------
+parseAsResponse
+█ -> (1)
+
+parseAsRequest
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.PooledTwitchPubSubTest -------
+createPool
+█ -> (1)
+
+basicLifecycle
+█ -> (1)
+
+createListenToRaidsReq
+█ -> (1)
+
+------- com.github.twitch4j.chat.enums.SubscriptionPlan -------
+fromString
+████ -> (4)
+
+toString
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.UserPredictionHandler -------
+topicName
+█ -> (1)
+
+apply
+████ -> (4)
+
+------- com.github.twitch4j.pubsub.handlers.ShoutoutHandler -------
+topicName
+█ -> (1)
+
+apply
+██ -> (2)
+
+------- com.github.twitch4j.chat.TwitchChatTest -------
+init
+█ -> (1)
+
+testJoinChannel
+█ -> (1)
+
+testSendChannelMessage
+█ -> (1)
+
+testReceiveChannelMessage
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.CharityHandler -------
+topicName
+█ -> (1)
+
+apply
+█ -> (1)
+
+------- com.github.twitch4j.events.ChannelChangeGameEvent -------
+getGameId
+█ -> (1)
+
+------- com.github.twitch4j.chat.flag.FlagParser -------
+parseFlags
+███████████ -> (11)
+
+parseFlags
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.FollowsHandler -------
+topicName
+█ -> (1)
+
+apply
+███ -> (3)
+
+------- com.github.twitch4j.pubsub.domain.HypeTrainStartTest -------
+deserialize
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.ScheduleUpdate -------
+isSnooze
+█ -> (1)
+
+isRemoval
+█ -> (1)
+
+------- com.github.twitch4j.chat.events.channel.RitualEvent -------
+isNewChatter
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandFetchPrediction -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandResolvePrediction -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.FollowsHandlerTest -------
+follow
+█ -> (1)
+
+unfollow
+█ -> (1)
+
+parse
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandAddChannelPermittedTerm -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.events.ChannelViewerCountUpdateEvent -------
+getViewerCount
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.Type -------
+toString
+█ -> (1)
+
+fromString
+████ -> (4)
+
+------- com.github.twitch4j.pubsub.domain.ChatModerationAction -------
+getTargetedUserName
+███ -> (3)
+
+getReason
+█ -> (1)
+
+getDeletedMessage
+███ -> (3)
+
+getTimeoutDuration
+███ -> (3)
+
+getSlowDuration
+███ -> (3)
+
+getFollowersDuration
+███ -> (3)
+
+------- com.github.twitch4j.graphql.command.BaseCommand -------
+getGraphQLCall
+█ -> (1)
+
+run
+█ -> (1)
+
+------- com.github.twitch4j.chat.util.BenchmarkFileUtils -------
+downloadFile
+███ -> (3)
+
+resolveFilePath
+█ -> (1)
+
+------- com.github.twitch4j.common.util.MilliInstantDeserializer -------
+deserialize
+█ -> (1)
+
+------- com.github.twitch4j.internal.CommandArguments -------
+getChannelId
+█ -> (1)
+
+getHelix
+█ -> (1)
+
+getToken
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.Change -------
+toString
+█ -> (1)
+
+fromString
+█ -> (1)
+
+------- com.github.twitch4j.chat.events.channel.IRCMessageEvent -------
+failure
+█ -> (1)
+
+getBadgeInfo
+███ -> (3)
+
+getBadges
+██ -> (2)
+
+getClientPermissions
+██ -> (2)
+
+isValid
+█ -> (1)
+
+parseTags
+████ -> (4)
+
+parseClientName
+███ -> (3)
+
+getUserId
+█ -> (1)
+
+getUserName
+██ -> (2)
+
+getUserDisplayName
+█ -> (1)
+
+getUserChatColor
+█ -> (1)
+
+getTargetUserId
+█ -> (1)
+
+getMessageId
+█ -> (1)
+
+getNonce
+█ -> (1)
+
+getSubscriberMonths
+██ -> (2)
+
+getSubscriptionTier
+██ -> (2)
+
+getCheererTier
+██ -> (2)
+
+getPredictedChoiceIndex
+██ -> (2)
+
+getPredictedChoiceTitle
+█ -> (1)
+
+getTagValue
+█ -> (1)
+
+getUser
+██ -> (2)
+
+getTargetUser
+█ -> (1)
+
+getChannel
+█ -> (1)
+
+getChannelName
+█ -> (1)
+
+getPayload
+█ -> (1)
+
+getMessage
+█ -> (1)
+
+getClientName
+█ -> (1)
+
+getRawTag
+█ -> (1)
+
+getRawTagString
+█ -> (1)
+
+getTags
+█ -> (1)
+
+getRawTags
+█ -> (1)
+
+getEventId
+█ -> (1)
+
+getEventTime
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandFetchLastBroadcast -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.FollowingHandler -------
+topicName
+█ -> (1)
+
+apply
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.TwitchPubSub -------
+connect
+█ -> (1)
+
+disconnect
+█ -> (1)
+
+reconnect
+█ -> (1)
+
+onPreConnect
+█ -> (1)
+
+onConnected
+█ -> (1)
+
+onTextMessage
+█ -> (1)
+
+sendCommand
+██ -> (2)
+
+queueRequest
+████ -> (4)
+
+listenOnTopic
+██ -> (2)
+
+unsubscribeFromTopic
+███ -> (3)
+
+getLatency
+█ -> (1)
+
+close
+██ -> (2)
+
+checkListenCount
+██ -> (2)
+
+------- com.github.twitch4j.chat.events.channel.IRCMessageEventTest -------
+parseChatClear
+█ -> (1)
+
+parseMessageDeletion
+█ -> (1)
+
+parseGlobalUserState
+█ -> (1)
+
+parseMessage
+█ -> (1)
+
+parseNotice
+█ -> (1)
+
+parseReconnect
+█ -> (1)
+
+parseRoomState
+█ -> (1)
+
+parseUserNotice
+█ -> (1)
+
+parseUserState
+█ -> (1)
+
+parseWhisper
+█ -> (1)
+
+parseNamesResponse
+█ -> (1)
+
+parseJoin
+█ -> (1)
+
+parsePart
+█ -> (1)
+
+parseMilestone
+█ -> (1)
+
+parseSharedChatMessage
+█ -> (1)
+
+parseSharedChatNotification
+█ -> (1)
+
+------- com.github.twitch4j.chat.events.roomstate.FollowersOnlyEvent -------
+getTime
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandCreateClip -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.common.util.NanoInstantDeserializer -------
+deserialize
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.TwitchPubSubConnectionPool -------
+listenOnTopic
+█ -> (1)
+
+unsubscribeFromTopic
+█ -> (1)
+
+subscribe
+███ -> (3)
+
+createConnection
+███ -> (3)
+
+disposeConnection
+█ -> (1)
+
+handleSubscription
+█ -> (1)
+
+handleDuplicateSubscription
+█ -> (1)
+
+handleUnsubscription
+█ -> (1)
+
+getRequestFromSubscription
+█ -> (1)
+
+getSubscriptionSize
+█ -> (1)
+
+injectNonce
+███ -> (3)
+
+getTopicCount
+█████████ -> (9)
+
+getLatency
+███ -> (3)
+
+------- com.github.twitch4j.pubsub.domain.WhisperThread -------
+getOtherUserId
+███ -> (3)
+
+------- com.github.twitch4j.pubsub.domain.HypeLevelUpTest -------
+deserialize
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandAcceptFriendRequest -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandDeleteChannelPermittedTerm -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandFetchBanStatus -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.BitsBadgeHandler -------
+topicName
+█ -> (1)
+
+apply
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.PubSubResponsePayload -------
+unpackMessage
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.TrainHandler -------
+topicName
+█ -> (1)
+
+topicNames
+█ -> (1)
+
+apply
+██ -> (2)
+
+------- com.github.twitch4j.pubsub.handlers.SuspiciousHandler -------
+topicName
+█ -> (1)
+
+apply
+████████ -> (8)
+
+------- com.github.twitch4j.chat.events.channel.ChannelStateEvent -------
+getState
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandFetchActivePredictions -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.TopicHandler -------
+topicName
+█ -> (1)
+
+topicNames
+█ -> (1)
+
+------- com.github.twitch4j.common.util.ThreadUtils -------
+getDefaultScheduledThreadPoolExecutor
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.HypeTrainApproachingTest -------
+deserialize
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.HypeTrainReward -------
+isTemporary
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.HypeTrainParticipation -------
+isCheer
+█ -> (1)
+
+isSub
+█ -> (1)
+
+isGifted
+█ -> (1)
+
+getSubTier
+███ -> (3)
+
+------- com.github.twitch4j.pubsub.events.ChannelPointsRedemptionEvent -------
+getTimestamp
+█ -> (1)
+
+------- com.github.twitch4j.common.util.TestUtils -------
+getCredential
+█ -> (1)
+
+sleepFor
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandTerminatePoll -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.common.enums.HypeChatLevel -------
+getLevel
+█ -> (1)
+
+getCharacterLimit
+█ -> (1)
+
+hasGradient
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandApproveUnbanRequest -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandFetchVips -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.graphql.TwitchGraphQLBuilder -------
+builder
+█ -> (1)
+
+build
+█ -> (1)
+
+------- com.github.twitch4j.TwitchClientHelper -------
+enableStreamEventListener
+██ -> (2)
+
+disableStreamEventListenerForId
+█████ -> (5)
+
+enableFollowEventListener
+███ -> (3)
+
+disableFollowEventListenerForId
+█████ -> (5)
+
+enableClipEventListener
+██ -> (2)
+
+disableClipEventListenerForId
+█████ -> (5)
+
+setThreadDelay
+█ -> (1)
+
+getCachedInformation
+█ -> (1)
+
+close
+███████ -> (7)
+
+startOrStopEventGenerationThread
+█ -> (1)
+
+updateListener
+█████ -> (5)
+
+runRecursiveStreamStatusCheck
+█ -> (1)
+
+runRecursiveFollowerCheck
+█ -> (1)
+
+runRecursiveClipCheck
+█ -> (1)
+
+getClips
+█ -> (1)
+
+cancel
+█ -> (1)
+
+runRecursiveCheck
+███ -> (3)
+
+------- com.github.twitch4j.auth.providers.TwitchIdentityProvider -------
+isCredentialValid
+███ -> (3)
+
+getAdditionalCredentialInformation
+█ -> (1)
+
+revokeCredential
+█ -> (1)
+
+------- com.github.twitch4j.chat.parser.MessageParserBenchmark -------
+setupBenchmark
+█ -> (1)
+
+parse1kMessages
+██ -> (2)
+
+parse1kTags
+██ -> (2)
+
+------- com.github.twitch4j.chat.events.AbstractChannelMessageEvent -------
+getPermissions
+█ -> (1)
+
+getFlags
+█ -> (1)
+
+------- com.github.twitch4j.util.EnumUtil -------
+buildMapping
+██ -> (2)
+
+buildMapping
+█ -> (1)
+
+buildMapping
+█ -> (1)
+
+------- com.github.twitch4j.chat.enums.AnnouncementColor -------
+parseColor
+████ -> (4)
+
+from
+█ -> (1)
+
+------- com.github.twitch4j.common.pool.TransactionalSubscriber -------
+subscribe
+█ -> (1)
+
+unsubscribe
+█ -> (1)
+
+------- com.github.twitch4j.chat.flag.FlagParserTest -------
+testEmpty
+█ -> (1)
+
+singleEmpty
+█ -> (1)
+
+singleEmptyAndScored
+█ -> (1)
+
+multipleEmpty
+█ -> (1)
+
+multipleEmptyAndScored
+█ -> (1)
+
+singleFlagSingleScore
+█ -> (1)
+
+singleFlagMultiScore
+█ -> (1)
+
+multiFlagSingleScore
+█ -> (1)
+
+multiFlagMultiScore
+█ -> (1)
+
+------- com.github.twitch4j.chat.events.TwitchEvent -------
+getTwitchChat
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.SharedChatParticipant -------
+getProfileImageUrl
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.AutoModQueueHandler -------
+topicName
+█ -> (1)
+
+apply
+██ -> (2)
+
+------- com.github.twitch4j.graphql.command.CommandRejectFriendRequest -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.AdsHandler -------
+topicName
+█ -> (1)
+
+apply
+██ -> (2)
+
+------- com.github.twitch4j.common.feign.interceptor.JsonContentTypeHeaderInterceptor -------
+apply
+██ -> (2)
+
+------- com.github.twitch4j.pubsub.domain.FragmentFlags -------
+getParsedTopics
+██ -> (2)
+
+------- com.github.twitch4j.graphql.command.CommandBulkApproveUnbanRequest -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.common.util.TimeUtils -------
+getCurrentTimeInMillis
+█ -> (1)
+
+fromInstant
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandUpdateClip -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.GiftHandler -------
+topicName
+█ -> (1)
+
+apply
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandCreateModComment -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandCreatePrediction -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.common.pool.AbstractConnectionPool -------
+createConnection
+█ -> (1)
+
+disposeConnection
+█ -> (1)
+
+getConnections
+█ -> (1)
+
+close
+█ -> (1)
+
+numConnections
+██ -> (2)
+
+------- com.github.twitch4j.graphql.command.CommandAddChannelBlockedTerm -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.ModerationType -------
+parse
+███████ -> (7)
+
+------- com.github.twitch4j.pubsub.handlers.PlaybackHandler -------
+topicName
+█ -> (1)
+
+topicNames
+█ -> (1)
+
+apply
+█ -> (1)
+
+------- com.github.twitch4j.internal.ChatCommandHandler -------
+getLimitKey
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.WhispersHandler -------
+topicName
+█ -> (1)
+
+apply
+███ -> (3)
+
+------- com.github.twitch4j.chat.events.channel.UserStateEvent -------
+getColor
+█ -> (1)
+
+getDisplayName
+█ -> (1)
+
+isSubscriber
+█ -> (1)
+
+getSubscriberMonth
+█ -> (1)
+
+isBroadcaster
+█ -> (1)
+
+isModerator
+█ -> (1)
+
+isStaff
+█ -> (1)
+
+isPrimeOrTurbo
+█ -> (1)
+
+------- com.github.twitch4j.common.util.ExponentialBackoffStrategy -------
+get
+██████████ -> (10)
+
+reset
+█ -> (1)
+
+setFailures
+█ -> (1)
+
+getFailures
+█ -> (1)
+
+copy
+█ -> (1)
+
+------- com.github.twitch4j.TwitchClient -------
+getEventManager
+█ -> (1)
+
+getExtensions
+██ -> (2)
+
+getHelix
+██ -> (2)
+
+getKraken
+██ -> (2)
+
+getMessagingInterface
+██ -> (2)
+
+getChat
+██ -> (2)
+
+getEventSocket
+██ -> (2)
+
+getPubSub
+██ -> (2)
+
+getGraphQL
+██ -> (2)
+
+close
+███ -> (3)
+
+------- com.github.twitch4j.common.TwitchTestUtils -------
+getCredential
+█ -> (1)
+
+getGraphQLCredential
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.UnbanRequestHandler -------
+topicName
+█ -> (1)
+
+apply
+██████ -> (6)
+
+------- com.github.twitch4j.chat.events.channel.ChannelMessageEvent -------
+isHighlightedMessage
+█ -> (1)
+
+isSkipSubsModeMessage
+█ -> (1)
+
+getCustomRewardId
+█ -> (1)
+
+isDesignatedFirstMessage
+█ -> (1)
+
+isUserIntroduction
+█ -> (1)
+
+hasGiganticEmote
+█ -> (1)
+
+hasMessageEffects
+█ -> (1)
+
+getAnimationId
+█ -> (1)
+
+getElevatedChatPayment
+██ -> (2)
+
+getHypeChatLevel
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.CommerceEmote -------
+getId
+█ -> (1)
+
+------- com.github.twitch4j.modules.IModule -------
+enable
+█ -> (1)
+
+disable
+█ -> (1)
+
+toString
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.Args -------
+getType
+█ -> (1)
+
+getData
+█ -> (1)
+
+getRawMessage
+█ -> (1)
+
+getLastTopicPart
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandDeleteChannelBlockedTerm -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.AutomaticRedemptionTest -------
+deserializeCelebration
+█ -> (1)
+
+deserializeEffects
+█ -> (1)
+
+deserializeGigantify
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandCreatePoll -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.util.TestUtils -------
+getCredential
+█ -> (1)
+
+sleepFor
+█ -> (1)
+
+------- com.github.twitch4j.util.PaginationUtil -------
+getPaginated
+█ -> (1)
+
+getPaginated
+█ -> (1)
+
+getPaginated
+█ -> (1)
+
+getPaginated
+█ -> (1)
+
+getPaginated
+█ -> (1)
+
+getPaginated
+█ -> (1)
+
+------- com.github.twitch4j.chat.util.TwitchChatLimitHelper -------
+createBucket
+█ -> (1)
+
+createBucket
+█ -> (1)
+
+createBucket
+█ -> (1)
+
+------- com.github.twitch4j.common.util.TwitchLimitRegistry -------
+setLimit
+█ -> (1)
+
+invalidateLimitsByUserId
+█ -> (1)
+
+invalidateLimit
+█ -> (1)
+
+getBucket
+█ -> (1)
+
+getOrInitializeBucket
+█ -> (1)
+
+getBucketsByUser
+█ -> (1)
+
+getInstance
+█ -> (1)
+
+------- com.github.twitch4j.util.IBackoffStrategy -------
+sleep
+█████ -> (5)
+
+get
+█ -> (1)
+
+reset
+█ -> (1)
+
+getFailures
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.AdsManagerHandler -------
+topicName
+█ -> (1)
+
+apply
+██ -> (2)
+
+------- com.github.twitch4j.common.enums.TwitchEnumTest -------
+deserialize
+█ -> (1)
+
+deserializeCasing
+█ -> (1)
+
+deserializeAbsent
+█ -> (1)
+
+deserializeNull
+█ -> (1)
+
+deserializeUnknown
+█ -> (1)
+
+deserializeNamed
+█ -> (1)
+
+deserializeAlias
+█ -> (1)
+
+------- com.github.twitch4j.chat.PooledTwitchChatTest -------
+createPool
+█ -> (1)
+
+testLifecycle
+█ -> (1)
+
+localTestRun
+█ -> (1)
+
+------- com.github.twitch4j.internal.ChatCommandHelixForwarderTest -------
+testCommandPattern
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.domain.PinnedMessage -------
+isHypeChat
+█ -> (1)
+
+isModPin
+█ -> (1)
+
+------- com.github.twitch4j.chat.TwitchChatRateLimitTest -------
+init
+█ -> (1)
+
+testJoinRateLimit
+██ -> (2)
+
+testChannelMessageRateLimit
+██ -> (2)
+
+testAuthRateLimit
+██ -> (2)
+
+------- com.github.twitch4j.graphql.command.CommandFetchLockedPredictions -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.graphql.command.CommandFollowUser -------
+getGraphQLCall
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.TwitchPubSubLocalTest -------
+connectToChat
+█ -> (1)
+
+localTestRun
+█ -> (1)
+
+------- com.github.twitch4j.pubsub.handlers.BroadcastSettingsHandler -------
+topicName
+█ -> (1)
+
+apply
+██ -> (2)
+
+------- com.github.twitch4j.TwitchClientPoolBuilder -------
+withBotOwnerId
+█ -> (1)
+
+withCommandTrigger
+█ -> (1)
+
+withHelperThreadRate
+█ -> (1)
+
+builder
+█ -> (1)
+
+build
+███████████████████████ -> (23)
+
+------- com.github.twitch4j.chat.events.channel.ReplyableEvent -------
+getMessageEvent
+█ -> (1)
+
+getChannel
+█ -> (1)
+
+reply
+█ -> (1)
+
+------- com.github.twitch4j.common.util.TwitchUtils -------
+getPermissionsFromTags
+█ -> (1)
+
+getPermissionsFromTags
+█ -> (1)
+
+getPermissionsFromTags
+███████ -> (7)
+
+getPermissions
+██ -> (2)
+
+getPermissionsFromTags
+████ -> (4)
+
+parseBadges
+█████ -> (5)
+
+------- com.github.twitch4j.chat.events.channel.ModAnnouncementEvent -------
+getColor
+█ -> (1)
+
