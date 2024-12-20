@@ -19,7 +19,7 @@ public class GetterFinder extends VoidVisitorWithDefaults<Void> {
 
     private String currentClass;
 
-    public GetterFinder(){
+    public GetterFinder() {
         super();
         this.writer = new ReportWriter();
     }
@@ -27,30 +27,32 @@ public class GetterFinder extends VoidVisitorWithDefaults<Void> {
     @Override
     public void visit(CompilationUnit unit, Void arg) {
         currentPackage = unit.getPackageDeclaration().orElse(new PackageDeclaration()).getNameAsString();
-        for(TypeDeclaration<?> type : unit.getTypes()) {
+        for (TypeDeclaration<?> type : unit.getTypes()) {
             type.accept(this, null);
         }
     }
 
     public void visitTypeDeclaration(TypeDeclaration<?> declaration, Void arg) {
-        if(!declaration.isPublic()) return;
-        for(MethodDeclaration method : declaration.getMethods()) {
+        if (!declaration.isPublic())
+            return;
+        for (MethodDeclaration method : declaration.getMethods()) {
             method.accept(this, arg);
         }
         // Printing nested types in the top level
-        for(FieldDeclaration field : declaration.getFields()){
+        for (FieldDeclaration field : declaration.getFields()) {
             field.accept(this, arg);
         }
-        for(BodyDeclaration<?> member : declaration.getMembers()) {
+        for (BodyDeclaration<?> member : declaration.getMembers()) {
             if (member instanceof TypeDeclaration)
                 member.accept(this, arg);
         }
     }
 
     @Override
-    public void visit(FieldDeclaration field, Void arg){
-        if(!field.isPrivate()) return;
-        for(VariableDeclarator v : field.getVariables()){
+    public void visit(FieldDeclaration field, Void arg) {
+        if (!field.isPrivate())
+            return;
+        for (VariableDeclarator v : field.getVariables()) {
             Logger.getGlobal().info("Private : " + v.getNameAsString());
             writer.addField(v.getNameAsString(), currentClass, currentPackage, v.getType());
         }
@@ -70,9 +72,10 @@ public class GetterFinder extends VoidVisitorWithDefaults<Void> {
 
     @Override
     public void visit(MethodDeclaration declaration, Void arg) {
-        if(!declaration.isPublic()) return;
+        if (!declaration.isPublic())
+            return;
         String name = declaration.getNameAsString();
-        Logger.getGlobal().info("Public method : "+name);
+        Logger.getGlobal().info("Public method : " + name);
         writer.checkGetter(name, currentClass, currentPackage, declaration.getType());
     }
 
